@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Using pngs</title>
+</head>
+<body style="margin-top:50px">
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                                        <li><a href="./index.html">Home</a></li>
+                                        <li><a href="./usingfa.html">FA</a></li>
+                                        <li><a href="./usingfas.html">fas</a></li>
+                                        <li><a href="./usingpngs.html">Pngs</a></li>
+                        </ul>
+                      </div>
+        </nav>
+        <div class="container">
+                        <div class="row">
+                            <div class="col-9 col-offset-3">
+                                        <h1 >Using FA</h1>
+                                        <button onclick="loadDivs(createDivForFA);">Make all divs</button>
+                                        <br>
+                                        <button onclick="prePendDiv(createDivForFA,'thisText')">Prepend Div</button>
+                                        <div id="scroll-div" style="width: 200px; height: 400px; list-style: none; overflow-y: scroll;">
+                                
+                                        </div>
+                            </div>
+                        </div>
+                </div>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./longlist.js"></script> 
+</body>
+</html>
